@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["dom", "es2018"],
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "stripInternal": true,
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "dist/types",
+    "outDir": "dist/esm5",
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "typeRoots": ["node_modules/@types", "break_infinity.d.ts"]
+  },
+  "include": ["./src", "break_infinity.d.ts"],
+  "compileOnSave": false
+}
