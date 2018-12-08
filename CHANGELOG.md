@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0"></a>
+
+# 1.0.0 (2018-12-08)
+
+### Features
+
+- **upload:** first upload ([d255aad](https://www.github.com/scorzy/ant-utils/commit/d255aad))
+
 <a name="4.1.0"></a>
 
 # [4.1.0](https://www.github.com/Hotell/typescript-lib-starter/compare/v4.0.0...v4.1.0) (2018-10-15)
