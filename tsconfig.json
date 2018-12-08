@@ -3,7 +3,10 @@
     "moduleResolution": "node",
     "module": "esnext",
     "target": "es5",
-    "lib": ["dom", "es2018"],
+    "lib": [
+      "dom",
+      "es2018"
+    ],
     "strict": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -17,8 +20,15 @@
     "outDir": "dist/esm5",
     "resolveJsonModule": true,
     "importHelpers": true,
-    "typeRoots": ["node_modules/@types", "break_infinity.d.ts"]
+    "typeRoots": [
+      "node_modules/@types",
+      "break_infinity.d.ts"
+    ]
   },
-  "include": ["./src", "break_infinity.d.ts"],
+  "include": [
+    "./src",
+    "break_infinity.d.ts",
+    "prettier.config.js"
+  ],
   "compileOnSave": false
 }

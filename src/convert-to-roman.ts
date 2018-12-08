@@ -5,7 +5,10 @@
  * @param {number} num, range [1,4999]
  * @returns {string} roman format
  */
-export function convertToRoman(num: number): string {
+export function convertToRoman(num: number | Decimal): string {
+  if (typeof num !== "number") num = num.toNumber()
+  num = Math.floor(num)
+
   const roman: { [key: string]: number } = {
     M: 1000,
     CM: 900,

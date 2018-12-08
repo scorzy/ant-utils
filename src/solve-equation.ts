@@ -6,6 +6,7 @@
  * @param c x
  * @param d constant
  * @returns solutions, real roots only
+ * @requires Decimal
  */
 export function solveEquation(
   a: Decimal,

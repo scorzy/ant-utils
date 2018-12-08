@@ -1,5 +1,5 @@
 /**
- * @type {import('./types').PrettierConfig}
+ * @type {import('./config/types').PrettierConfig}
  */
 const config = {
   singleQuote: false,

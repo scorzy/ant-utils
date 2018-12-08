@@ -1,7 +1,7 @@
 import { convertToRoman } from "../convert-to-roman"
 
-describe("solveEquation", () => {
-  it("convertToRoman", () => {
+describe("convert-to-roman", () => {
+  it("convert-to-roman", () => {
     expect(convertToRoman(1)).toBe("I")
     expect(convertToRoman(2)).toBe("II")
     expect(convertToRoman(4)).toBe("IV")
@@ -13,5 +13,9 @@ describe("solveEquation", () => {
     expect(convertToRoman(1776)).toBe("MDCCLXXVI")
     expect(convertToRoman(1954)).toBe("MCMLIV")
     expect(convertToRoman(1990)).toBe("MCMXC")
+  })
+
+  it("decimal", () => {
+    expect(convertToRoman(new Decimal(1))).toBe("I")
   })
 })
